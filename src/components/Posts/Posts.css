@@ -1,0 +1,23 @@
+.Button.post-btn {
+    border-radius: 40px;
+    padding: 4px 22px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.TextField.input {
+    border: 0;
+    outline: 0;
+}
+
+.TextField.input::placeholder {
+    font-size: 22px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.icon::hover {
+    color: #0f1419;
+}

@@ -1,0 +1,69 @@
+.profile-back-image {
+    position: relative;
+    height: 250px;
+}
+
+.profile-back-image>img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-image {
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    border: 5px solid white;
+}
+
+.profile-image>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.Button.edit-btn,
+.Button.follow-btn {
+    padding: 4px 20px;
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.add-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #0b101734;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-label:hover {
+    background-color: #0b10176a;
+}
+
+.edit-profile-picture {
+    position: relative;
+}
+
+.profile-image.editing {
+    bottom: -30px;
+}
+
+.edit-form {
+    height: 550px;
+    overflow-y: scroll;
+}
+
+@media only screen and (max-width: 890px) {
+    .edit-form {
+        height: 650px;
+    }
+}

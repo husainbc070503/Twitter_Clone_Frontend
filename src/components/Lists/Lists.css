@@ -1,0 +1,60 @@
+.list-image {
+    width: 100%;
+    position: relative;
+    height: 250px;
+}
+
+.list-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.list-image .add-icon {
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+    padding: 9px 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0f1419;
+}
+
+.details {
+    height: 280px;
+    overflow-y: scroll;
+}
+
+.list-back-image {
+    width: 100%;
+    height: 250px;
+}
+
+.list-back-image>img {
+    width: 100%;
+    height: 100%;
+}
+
+.Button.list-btn {
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.Button.list-btn.pad {
+    padding: 4px 30px;
+}
+
+.members-chip {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 890px) {
+    .details {
+        height: auto;
+    }
+}
